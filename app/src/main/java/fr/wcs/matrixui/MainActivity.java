@@ -24,6 +24,24 @@ public class MainActivity extends AppCompatActivity {
 
 
                                   // WELCOME TEXTVIEW
+//         <LinearLayout
+//        android:id="@+id/mainLinearLayout"
+//        android:layout_width="match_parent"
+//        android:layout_height="wrap_content"
+//        android:layout_marginHorizontal="10dp"
+//        android:orientation="vertical">
+//
+//        <TextView
+//        android:id="@+id/teaser"
+//        android:layout_width="match_parent"
+//        android:layout_height="wrap_content"
+//        android:background="#ff4081"
+//        android:textColor="#6e1b37"
+//        android:textSize="20sp"
+//        android:layout_marginVertical="10dp"
+//        android:paddingHorizontal="10dp"
+//        android:paddingVertical="5dp"
+//        android:text="Welcome to the Wild Code School"/>
 
         TextView _TVwelcome = new TextView(this);
         // Modify View
@@ -63,11 +81,12 @@ public class MainActivity extends AppCompatActivity {
 
         LinearLayout.LayoutParams yesiwantLayout =
                 new LinearLayout.LayoutParams(
-                        LinearLayout.LayoutParams.MATCH_PARENT,
+                        LinearLayout.LayoutParams.WRAP_CONTENT,
                         LinearLayout.LayoutParams.WRAP_CONTENT);
 
         yesiwantLayout.gravity=Gravity.CENTER_HORIZONTAL;
         _CBYesIWant.setGravity(Gravity.START | Gravity.CENTER_HORIZONTAL);
+        _CBYesIWant.setGravity(Gravity.START | Gravity.CENTER_VERTICAL);
 
         //SETLAYOUT
         _CBYesIWant.setLayoutParams(yesiwantLayout);

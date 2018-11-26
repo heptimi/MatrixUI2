@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MatrixUI</string>
+    <string name="welcome">Welcome to the wild code school</string>
+    <string name="cbtext">Yes i want to be a wilder</string>
+    <string name="fnText">Firstname</string>
+    <string name="lnText">Lastname</string>
+    <string name="buttontext">Accept</string>
+
+
+</resources>
